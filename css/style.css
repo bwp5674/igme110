@@ -1,0 +1,119 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("../img/funky-lines.png");
+}
+
+div.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center; /* center items horizontally, in this case */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: paralucent, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (min-width: 960px) {
+  div.container-grid {
+    width: 960px;
+  }
+}
+
+@media (max-width: 960px) {
+  div.container-grid {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.container-grid {
+    width: 1200px;
+  }
+}
+
+div.container-grid {
+  display: grid;
+  grid-template-columns: 4.2fr 8fr;
+  grid-template-rows: auto auto auto auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+nav {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: block;
+  padding-left: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 4px;
+  background: yellow;
+  margin-left: 0;
+}
+
+figure {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+summary {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+summary a {
+  display: inline-block;
+  background-color: lightgreen;
+  padding: 8px;
+  margin-right: 4px;
+}
+
+main {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+div.container-grid > * {
+  background: #ccc;
+  border: 1px dashed #000;
+  margin: 5px;
+}
