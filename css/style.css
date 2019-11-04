@@ -49,6 +49,7 @@ div.container-grid > * {
 }
 
 summary,
+aside,
 main,
 footer,
 figure {
@@ -120,12 +121,19 @@ figure {
   background-position: 70% center;
 }
 
-summary {
+#why-voice figure {
+  background-image: url("../img/echo-on-table.jpg");
+  border: 1px solid #17152c;
+}
+
+summary,
+aside {
   grid-column-start: 2;
   grid-column-end: 3;
 }
 
-summary a {
+summary a,
+aside a {
   display: inline-block;
   background-color: #b9b7f7;
   padding: 7px 14px 7px 14px;
@@ -136,11 +144,13 @@ summary a {
   font-weight: 400;
 }
 
-summary nav {
+summary nav,
+aside nav {
   text-align: right;
 }
 
-summary a:hover {
+summary a:hover,
+aside a:hover {
   background-color: #c42369;
   color: #fff;
 }
@@ -150,10 +160,17 @@ main {
   grid-column-end: 3;
 }
 
-main a {
-  color: #0fabd8;
+main li {
   font-size: 1.1rem;
   font-family: sans-serif;
+}
+
+main a {
+  color: #0fabd8;
+}
+
+main h1 {
+  font-size: 2.4rem;
 }
 
 main h2 {
@@ -203,7 +220,8 @@ footer p {
     position: static;
   }
 
-  summary {
+  summary,
+  aside {
     grid-column-start: 1;
     grid-column-end: 2;
   }
