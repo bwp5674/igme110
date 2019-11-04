@@ -50,12 +50,12 @@ div.container-grid > * {
 
 summary,
 main,
-footer {
+footer,
+figure {
   padding-left: 20px;
   padding-right: 20px;
   background: #17152c;
   color: #fff;
-  border: 1px dashed #000;
 }
 
 header {
