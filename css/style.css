@@ -8,6 +8,11 @@ body {
   background-image: url("../img/funky-lines.png");
 }
 
+::selection {
+  background: #d92374;
+  color: #fff;
+}
+
 div.center {
   display: flex;
   flex-direction: column;
@@ -200,5 +205,11 @@ footer p {
 @media (max-width: 725px) {
   div.container-grid {
     width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.container-grid {
+    width: 1200px;
   }
 }
