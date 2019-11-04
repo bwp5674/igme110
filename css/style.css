@@ -132,6 +132,11 @@ figure {
   border: 1px solid #17152c;
 }
 
+#sources figure {
+  background-image: url("../img/notebook.jpg");
+  border: 1px solid #17152c;
+}
+
 aside {
   grid-column-start: 2;
   grid-column-end: 3;

@@ -7,3 +7,4 @@
 - [Voice Interfaces Picture](https://www.pexels.com/photo/black-amazon-echo-on-table-977296/)
 - [Echo Picture 2](https://unsplash.com/photos/tsBropDpnwE)
 - [Font Awesome](https://fontawesome.io)
+  https://www.pexels.com/photo/antique-blank-camera-classic-269810/
