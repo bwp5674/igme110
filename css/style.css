@@ -48,7 +48,6 @@ div.container-grid > * {
   margin: 5px;
 }
 
-summary,
 aside,
 main,
 footer,
@@ -126,13 +125,11 @@ figure {
   border: 1px solid #17152c;
 }
 
-summary,
 aside {
   grid-column-start: 2;
   grid-column-end: 3;
 }
 
-summary a,
 aside a {
   display: inline-block;
   background-color: #b9b7f7;
@@ -144,12 +141,10 @@ aside a {
   font-weight: 400;
 }
 
-summary nav,
 aside nav {
   text-align: right;
 }
 
-summary a:hover,
 aside a:hover {
   background-color: #c42369;
   color: #fff;
@@ -220,7 +215,6 @@ footer p {
     position: static;
   }
 
-  summary,
   aside {
     grid-column-start: 1;
     grid-column-end: 2;
